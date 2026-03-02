@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="fatima">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Create your account
+         today to access all our HTML lessons, quizzes, and project resources.">
+         <link rel="stylesheet" href="page.css" type="text/css">
+         <title>Join the Future of Web Development</title>
+         <link rel="icon" href="html-5.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+           <h1>Create your account</h1>
+                <p class="subtitle">Join our HTML course to kickstart your digital career transition.</p>
+           
+                <nav>
+                <ul>
+                    <li><a  class="linknav" href="page.html">Home</a></li>
+                    <li><a class="linknav" href="login.html">Login</a></li>
+                    <!--<li><a class="linknav" href="sign.html">Sign up</a></li> -->
+                    <li><a class="linknav" href="contact.html">Contact us</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        
+        <main>
+             <article id="loginsection">
+               
+               
+                <fieldset class="fildsetinscr"> 
+                    <legend><b>Sign Up </b></legend>
+                    <form  action="https://httpbin.org/post" method="post">
+                        <label for="FirstName">First Name:</label>
+                        <input class="input" type="text" name="FirstName" id="FirstName" required placeholder="First Name">
+                        
+                        <label for="LastName">Last Name:</label>
+                        <input class="input" type="text" name="LastName" id="LastName"  required placeholder="Last Name">
+                        
+                        <label for="email">Email:</label>
+                        <input class="input"    type="email" name="email" id="email"  placeholder="emailemail@gmail.com">
+                       
+                        <label for="password">Password:</label>
+                        <input class="input" type="password" name="password" id="password" required placeholder="password">
+                       
+                        <label for="confirm_pass">Confirm Password:</label>
+                        <input class="input"  type="password" id="confirm_pass" name="confirm_password" required  placeholder="password">
+                     
+                       <label for="tel">Phone Number:</label>
+                       <input class="input" type="tel" name="tel" id="tel" required placeholder="0611111111">
+                      
+                       <div class="checkbox">
+                       <input type="checkbox" id="terms" name="accept_terms" required>
+                       <label for="terms">I agree to the terms and conditions</label>
+                       </div>
+                       
+                        <button class="button" type="submit">Sign Up</button>
+                    </form>
+                </fieldset>
+                 <p>Already have an account?  <a class="link" href="login.html">Login</a></p>
+            </article>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Web Development Course. All rights reserved.</p>
+        </footer>
+        
+    </body>
+</html>

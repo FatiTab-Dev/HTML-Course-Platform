@@ -1,0 +1,342 @@
+/*  Global Styles - الساس ديال الموقع */
+* {
+    box-sizing: border-box; /* */
+}
+
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 99%;
+    margin: auto;
+    padding:0;
+    border-left: 1px solid #c90286;
+    border-right: 1px solid #c90286;
+    background-color: #fff9fe; 
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*  Typography - العناوين والخطوط */
+h1 {
+    margin-top: 100px; 
+    color: #350224;
+    text-shadow:  0 4px 6px rgba(148, 3, 100, 0.15);
+    text-align: center;
+}
+h2 {
+    color: #4f0235;
+     text-shadow: 0 2px 6px rgba(79, 2, 53, 0.25);
+    text-align: center;
+}
+hr {
+    border: 0.1px solid #c90286;
+    max-width:99%;
+}
+.border , .articleborder{
+    border: 1px solid #c90286;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.subtitle {
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+/*  Images*/
+
+/*  Navigation - شريط التنقل (مجموع فبلاصة وحدة) */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 99%;
+    margin: 0 auto;
+    z-index: 1000;
+    
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #350224;
+    color: white;
+    padding: 20px 10px;
+    margin: 0;
+    border-radius: 0 0 10px 10px; /* حواف دائرية غير من التحت */
+    gap: 2px;
+    list-style-type: none; 
+}
+
+/* 4. Links & Interactive - الروابط والتفاعل */
+li {
+    list-style-type: none;
+}
+
+li .linknav {
+    text-decoration: none; /* */
+    color: white;
+    transition: 0.3s; /* باش الـ hover يجي ناعم */
+}
+
+.linknav:visited {
+    color: rgb(234, 220, 236);
+}
+
+.linknav:hover, .linknav:focus {
+    color: rgba(249, 0, 179, 0.781);
+    border: 0.01px solid rgb(202, 0, 158);
+    border-radius: 10px;
+    padding: 3px;
+}
+.link{
+    color: #72034f;
+     text-decoration: none;
+     display: flex;
+     padding-bottom: 15px;
+}
+.link:hover{
+    color: #72034f;
+     text-decoration: underline;
+}
+/*flexbox caption HTML*/
+.html-intro{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    gap:60px;
+    margin: 80px auto;
+  max-width: 1200px;
+  margin-bottom:0;
+
+}
+.html-logo{
+    width:300px;
+    height:auto;
+}
+.html-text{
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+/*summary*/
+details{
+    max-width: 900px;
+  margin: 20px auto;
+ background-color: #fff9fe; 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(53, 2, 36, 0.08);
+}
+.summary{
+    background-color: #f8eaf3;
+    padding: 20px 25px;
+    border:1px solid #7a014f;
+     border-left: 5px solid #7a014f;
+  padding: 20px 25px;
+  border-radius: 12px;
+  font-weight: bold;
+    margin-bottom:20px;
+    cursor: pointer;
+     list-style: none;
+}
+
+
+/*summary list*/
+.list-learning li{
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::before {
+  content: "▶";
+  margin-right: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+summary:hover{
+    background-color:#f3d9e8;
+}
+ul strong{
+    color: #56053c;
+  font-weight: 600;
+}
+
+.list-ourcoursese{
+    padding: 20px;
+    letter-spacing: normal;
+    list-style: disc;
+}
+/* 5. Tables - الجداول */
+th, td, caption {
+    border: 1px solid #7f0558;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5rem;
+
+}
+tbody tr:nth-child(even){
+    background-color:#f6edf3 ;
+}
+tbody tr:hover{
+    background-color: #f5c7e197;
+    cursor:default;
+}
+table {
+    border-collapse: collapse; /* أحسن من separate باش يجي الخط رقيق */
+    width: 100%;
+    margin-top: 20px;
+}
+/* Formes */
+.fieldset-page{
+    border: 1px solid #350224;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+   margin:auto;
+}
+legend{
+    
+    color: #350224;
+    padding:6px 15px;
+   margin-bottom: 10px;
+   font-size: 1.5rem;
+   font-weight: 700;
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 1px;
+   padding:10px ; 
+    border-radius: 10px;
+}
+.borderfildset, .fildsetinscr{
+    border:1px solid #c90286;
+    border-radius: 10px;
+    background-color:#a5829a0f;
+     box-shadow: 0 8px 15px rgba(132, 27, 97, 0.2);
+     padding: 10px;
+     margin: 10px auto;
+     max-width: 1200px;
+    width:50%;
+    margin:auto;
+    
+}
+
+.button{
+    width:80%;
+    padding:10px 20px;
+    display: block;
+    margin:10px  auto;
+    
+}
+.button:hover ,.signup:hover{
+    background-color:  #6c0652ee;
+   color:white;
+   box-shadow: 0 5px 15px rgba(127, 1, 75, 0.486);
+  cursor:pointer;
+  transition: 0.3s;
+}
+.signup ,.button{background-color: #460224;
+    color: white;
+    border: none;
+     font-size: 0.8rem;
+     font-style: oblique;
+border-radius:10px;
+}
+.signup {
+    width:30%; 
+    padding:10px 20px;
+     margin-bottom: 20px;
+}
+input{
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto;
+     font-family: 'Courier New', Courier, monospace;
+    display: block;
+    border: 1px solid #c70385;
+    border-radius: 10px;
+}
+ .input:focus{
+     background-color: #fffbfd;
+     outline: none;
+    border: 0.9px solid #460224;
+    box-shadow: 0 0 5px #c70385;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 15px;           
+    margin: 20px auto;
+    width: 80%;         
+    justify-content: flex-start;
+}
+
+/* 2. تعديل المربع بضبط */
+.checkbox input[type="checkbox"] {
+    display: inline;      
+    width: 15px;          /* حجم ثابت للمربع */
+    height: 15px;
+    margin: 0;           
+    cursor: pointer;
+}
+
+/* 3. تعديل النص */
+.checkbox label {
+    margin: 0;            /* حيدي أي مارجين قديم */
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #350224;
+}
+label{
+    display: block;
+    margin-left: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #350224;
+}
+textarea{
+    width:70%;
+    max-width: 100%;
+    display: flex;
+    margin:auto;
+    border: 1px solid #c70385;
+    border-radius: 10px;
+}
+.contact-details{
+    background-color: #460224;
+    color:white;
+    margin-bottom: 0;
+}
+/*footer*/
+.more-info {
+    text-align:center;
+    background-color: #350224;
+    color:white;
+    padding: 15px;
+    border-top: 10px solid  #350224;
+    
+}
+.contact{
+    text-align: start;
+    font-size: 0.9rem;
+    color:#fffbfe;
+}
+footer p {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    opacity: 0.99; 
+}

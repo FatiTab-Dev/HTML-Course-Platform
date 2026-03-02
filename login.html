@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="fatima">
+        <meta name="description" content="Log in to continue your progress and access your saved HTML projects.">
+         <link rel="stylesheet" href="page.css" type="text/css">
+         <title>Welcome Back, Coder!</title>
+         <link rel="icon" href="html-5.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+           <h1>Welcome Back!</h1>
+            <nav>
+                <ul>
+                    <li><a  class="linknav" href="page.html">Home</a></li>
+                   <li><a class="linknav" href="#loginsection">Login</a></li>
+                    <li><a class="linknav" href="sign.html">Sign up</a></li>
+                    <li><a class="linknav" href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <article id="loginsection">
+                
+                <p>Please enter your details to access your HTML course.</p>
+                <fieldset class="fildsetinscr"> 
+                    <legend><b>Login</b></legend>
+                    <form  action="https://httpbin.org/post" method="post">
+                        <label for="email">Email:</label>
+                        <input class="input" type="email" name="email" id="email" required placeholder="emailemail@gmail.com">
+                        <label for="password">Password:</label>
+                        <input class="input" type="password" name="password" id="password" required placeholder="password">
+                      
+                       <div class="checkbox">
+                        <input class="input"  type="checkbox" name="remember" id="remember" value="remember">
+                       <label for="remember">Stay logged in</label>
+                       </div>
+                      
+                       <a  class="link" href="#">Forgot password?</a>
+                        
+                        <button  class="button" type="submit">Login</button>
+                    </form>
+                </fieldset>
+                 <p>New to our platform? <a href="sign.html" class="link">Create an account</a></p>
+            </article>
+        </main>
+    
+        <footer>
+            <p>&copy; 2025 Web Development Course. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
