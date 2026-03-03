@@ -363,7 +363,7 @@ footer p {
         width: 90%;
     }
     .borderfildset, .fildsetinscr{
-        width: 90%;
+        width: 60%;
     }
     .signup{
         width: 50%;
@@ -372,6 +372,7 @@ footer p {
        
     width: 40%;
     font-size: 0.6rem;
+     
        
     }
 }
