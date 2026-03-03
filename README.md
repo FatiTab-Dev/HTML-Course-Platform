@@ -9,7 +9,7 @@ A professional, multi-page educational website designed to provide a structured 
 The project consists of 4 main interconnected pages, all sharing a cohesive design system:
 
 1.  **page.html (Home)**: The landing page featuring the course introduction, hero section, and interactive syllabus.
-2.  **login.html**: A dedicated secure-entry interface with styled input fields and "Remember Me" functionality.
+2.  **login.html**: A dedicated secure-entry interface with styled input fields.
 3.  **sing.html**: A comprehensive registration form with precise label alignment and account creation features.
 4.  **contact.html**: A professional communication portal with a message textarea and "Send Message" button.
 
