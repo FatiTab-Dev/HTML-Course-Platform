@@ -3,7 +3,7 @@
 This is a fully responsive educational website for learning HTML5 fundamentals.
 
 ## 🔗 Live Demo
-🚀 **Explore the live project here:** [https://fatitab-dev.github.io/HTML-Course-Platform/page.html](https://fatitab-dev.github.io/HTML-Course-Platform/page.html)
+🚀 **Explore the live project here:** [https://fatitab-dev.github.io/HTML-Course-Platform/page.html](https://fatitab-dev.github.io/HTML-Course-Platform/index.html)
 
 ## 📄 Project Pages
 * **Home Page**: `index.html` (Course introduction & syllabus)
