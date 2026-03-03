@@ -68,8 +68,7 @@ nav {
     right: 0;
     max-width: 99%;
     margin: 0 auto;
-    z-index: 1000;
-    
+    z-index: 1000; 
 }
 
 nav > ul {
@@ -84,7 +83,7 @@ nav > ul {
     list-style-type: none; 
 }
 
-/*  Links & Interactive - الروابط والتفاعل */
+/*  Links & Interactiv*/
 li {
     list-style-type: none;
 }
@@ -188,7 +187,7 @@ ul strong{
     letter-spacing: normal;
     list-style: disc;
 }
-/*  Tables - الجداول */
+/*  Tables  */
 th, td, caption {
     border: 1px solid #7f0558;
     font-family: 'Courier New', Courier, monospace;
@@ -345,6 +344,7 @@ footer p {
     letter-spacing: 1px;
     opacity: 0.99; 
 }
+/* Responsive Design */
 @media(max-width: 660px){
     nav > ul {
         font-size: 0.6rem !important;
