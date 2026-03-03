@@ -355,7 +355,10 @@ footer p {
     body,.html-text{
         font-size: 0.7rem;
     }
-   
+   body{
+    min-width: 360px;
+    margin:auto;
+   }
     .html-logo{
         width:90%;
     }
@@ -368,11 +371,9 @@ footer p {
     .signup{
         width: 50%;
     }
-    table{
-       
-    width: 40%;
-    font-size: 0.6rem;
-     
-       
+    .table{
+    width: 50%;
+    font-size: 0.6rem;   
+    margin:0 
     }
 }
