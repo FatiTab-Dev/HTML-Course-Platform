@@ -1,17 +1,15 @@
-# 🎓 The Complete HTML Course: Multi-Page Learning Platform
+# 🎓 The Complete HTML Course: Multi-Page Platform
 
-A professional, multi-page educational website designed to provide a structured learning experience for HTML5 and digital literacy.
+This is a fully responsive educational website for learning HTML5 fundamentals.
 
 ## 🔗 Live Demo
-🚀 **Explore the live project here:** [https://fatimatabt.github.io/YOUR-REPO-NAME/]([https://fatimatabt.github.io/YOUR-REPO-NAME/](https://fatitab-dev.github.io/HTML-Course-Platform/))
+🚀 **Explore the live project here:** [https://fatitab-dev.github.io/HTML-Course-Platform/page.html](https://fatitab-dev.github.io/HTML-Course-Platform/page.html)
 
-## 📄 Website Structure
-The project consists of 4 main interconnected pages, all sharing a cohesive design system:
-
-1.  **page.html (Home)**: The landing page featuring the course introduction, hero section, and interactive syllabus.
-2.  **login.html**: A dedicated secure-entry interface with styled input fields.
-3.  **sing.html**: A comprehensive registration form with precise label alignment and account creation features.
-4.  **contact.html**: A professional communication portal with a message textarea and "Send Message" button.
+## 📄 Project Pages
+* **Home Page**: `index.html` (Course introduction & syllabus)
+* **Login Interface**: `login.html`
+* **Registration**: `sing in.html`
+* **Support**: `contact.html`
 
 ## 🚀 Technical Highlights
 * **Responsive Architecture**: Fully optimized for mobile, tablet, and desktop using CSS Media Queries.
