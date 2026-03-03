@@ -229,7 +229,7 @@ legend{
      padding: 10px;
      margin: 10px auto;
      max-width: 1200px;
-    width:50%;
+    width:40%;
     margin:auto;
     
 }
@@ -288,7 +288,7 @@ input{
 /* 2. تعديل المربع بضبط */
 .checkbox input[type="checkbox"] {
     display: inline;      
-    width: 15px;          /* حجم ثابت للمربع */
+    width: 15px;         
     height: 15px;
     margin: 0;           
     cursor: pointer;
@@ -296,7 +296,7 @@ input{
 
 /* 3. تعديل النص */
 .checkbox label {
-    margin: 0;            /* حيدي أي مارجين قديم */
+    margin: 0;            
     cursor: pointer;
     font-size: 0.9rem;
     color: #350224;
@@ -322,7 +322,7 @@ textarea{
     margin-bottom: 0;
 }
 /*footer*/
-.more-info {
+.more-info,footer{
     text-align:center;
     background-color: #350224;
     color:white;
