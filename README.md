@@ -3,7 +3,7 @@
 A professional, multi-page educational website designed to provide a structured learning experience for HTML5 and digital literacy.
 
 ## 🔗 Live Demo
-🚀 **Explore the live project here:** [https://fatimatabt.github.io/YOUR-REPO-NAME/](https://fatimatabt.github.io/YOUR-REPO-NAME/)
+🚀 **Explore the live project here:** [https://fatimatabt.github.io/YOUR-REPO-NAME/]([https://fatimatabt.github.io/YOUR-REPO-NAME/](https://fatitab-dev.github.io/HTML-Course-Platform/))
 
 ## 📄 Website Structure
 The project consists of 4 main interconnected pages, all sharing a cohesive design system:
